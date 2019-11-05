@@ -1,0 +1,59 @@
+#mapa {
+	height: 400px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+.ui-autocomplete { 
+	background: #fff; 
+	border-top: 1px solid #ccc;
+	cursor: pointer; 
+	font: 15px 'Open Sans',Arial;
+	margin-left: 3px;
+	width: 493px !important;
+	position: fixed;
+}
+
+.ui-autocomplete .ui-menu-item { 
+	list-style: none outside none;
+	padding: 7px 0 9px 10px;
+}
+
+.ui-autocomplete .ui-menu-item:hover { background: #eee }
+
+.ui-autocomplete .ui-corner-all { 
+	color: #666 !important;
+	display: block;
+}
+.campo {
+	height: 30px;
+	width: 300px;
+	padding: 5px;
+	border-radius: 10px;
+}
+.inform {
+	margin-left: 20%;
+}
+#btnEndereco {
+	margin-left: 1%;
+	display: inline-block;
+	background-color: #ccc;
+	color: #444;
+	padding: 10px 20px;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	border: 0px;
+	border-radius: 4px;
+}
+#btnEndereco:hover {
+	background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.15));
+	cursor: pointer;
+	border-radius: 4px;
+}
+#pa {
+	color: white;
+}
+#imag {
+	border-radius: 10px;
+}
